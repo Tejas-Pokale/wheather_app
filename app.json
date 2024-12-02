@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "wheather_app2",
-    "slug": "wheather_app2",
+    "name": "Wheather finder",
+    "slug": "wheather_app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tejas_pokale.wheather_app"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "911c771b-4b85-4d7f-8641-fef2e286bf89"
+      }
     }
   }
 }
